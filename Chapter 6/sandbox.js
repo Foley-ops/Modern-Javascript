@@ -95,7 +95,8 @@ title.style.fontSize = "60px";
 title.style.margin = "";
 */
 
-// Lesson 56
+// Lesson 52
+/*
 
 const article = document.querySelector("article");
 
@@ -112,3 +113,9 @@ console.log(title.parentElement);
 console.log(title.parentElement.parentElement);
 console.log(title.nextElementSibling);
 console.log(title.previousElementSibling);
+
+*/
+
+// Lesson 53
+
+const button = document.querySelector('button');
