@@ -118,6 +118,8 @@ console.log(title.previousElementSibling);
 
 // Lesson 53
 // lesson 54
+// lesson 55
+/* 
 
 // const button = document.querySelector("button");
 
@@ -159,4 +161,24 @@ ul.addEventListener("click", (e) => {
   if (e.target.tagName === "LI") {
     e.target.remove();
   }
+});
+ */
+
+// Lesson 56
+
+const copy = document.querySelector(".copy-me");
+
+copy.addEventListener("copy", () => {
+  console.log("OI! My content is copyright");
+});
+
+const box = document.querySelector(".box");
+
+box.addEventListener("mousemove", (e) => {
+  // console.log(e.offsetX, e.offsetY);
+  box.textContent = `x pos - ${e.offsetX} y pos ${e.offsetY}`;
+});
+
+document.addEventListener("wheel", (e) => {
+  console.log(e.pageX, e.pageY);
 });
