@@ -165,7 +165,7 @@ ul.addEventListener("click", (e) => {
  */
 
 // Lesson 56
-
+/* 
 const copy = document.querySelector(".copy-me");
 
 copy.addEventListener("copy", () => {
@@ -182,3 +182,6 @@ box.addEventListener("mousemove", (e) => {
 document.addEventListener("wheel", (e) => {
   console.log(e.pageX, e.pageY);
 });
+ */
+
+// Lesson 57
